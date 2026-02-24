@@ -1,3 +1,6 @@
 [gd_scene format=3 uid="uid://b6t3etanh71up"]
 
-[node name="Node2D" type="Node2D" unique_id=326577393]
+[ext_resource type="Script" uid="uid://dq32f81tkjp11" path="res://DungeonGenerationC.gd" id="1_wtcfe"]
+
+[node name="DungeonGeneration" type="Node2D" unique_id=1890144508]
+script = ExtResource("1_wtcfe")
