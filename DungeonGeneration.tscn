@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://b6t3etanh71up"]
+
+[ext_resource type="Script" uid="uid://dq32f81tkjp11" path="res://DungeonGenerationC.gd" id="1_qft5u"]
+
+[node name="DungeonGeneration" type="Node2D" unique_id=1890144508]
+script = ExtResource("1_qft5u")
+_dimensions = Vector2i(20, 20)
+_critical_path_length = 26
+_branches = 5
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=191486566]
